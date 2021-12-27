@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 02, 2021 at 04:47 AM
+-- Generation Time: Dec 27, 2021 at 04:34 AM
 -- Server version: 10.4.19-MariaDB
 -- PHP Version: 8.0.7
 
@@ -47,7 +47,7 @@ CREATE TABLE `info_db` (
 --
 
 INSERT INTO `info_db` (`CarName`, `GoStopStatus`, `CarStatus`, `Station1`, `Station2`, `Station3`, `Station4`, `Station5`, `Direction`, `CurrentPositionX`, `CurrentPositionY`, `Diag`) VALUES
-('CAR1', 'GO', 'STANDBY', 1, 1, 0, 1, 1, 'up', 33.0134, -22.5857, 'PosErr02');
+('CAR1', 'GO', 'MOVING', 1, 1, 0, 0, 0, 'up', -0.018, 4.116, 'PosErr02');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
